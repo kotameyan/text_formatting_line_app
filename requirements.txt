@@ -1,0 +1,4 @@
+flask
+linebot
+openai
+gunicorn
