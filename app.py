@@ -30,8 +30,8 @@ def callback():
 def handle_text_message(event):
     #ユーザーから送られてきた文章
     line_event_message=event.message.text
-    line_event_message=line_event_message.replace("\n","")
-    line_event_message=line_event_message.replace(" ","")
+    # line_event_message=line_event_message.replace("\n","")
+    # line_event_message=line_event_message.replace(" ","")
 
     # GPT-3に対するプロンプトを作成する
     prompt_message='''\
