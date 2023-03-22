@@ -1,9 +1,0 @@
-最初に実行しないといけないコマンド
-
-export CHANNEL_ACCESS_TOKEN="g/o6h7aQUZb3Z1ZBgWYSv2/0hSs5UCP2KxLyKG70mKlve44e/I6D4gnUELrtMbwLylRRiThapMqCDUhziyCDJByNeLeuTw5CoiDo7W5W6qnOchJf5E5xqAJ9SA0np3Xzgm4rWZpkHvrTbZ7PLq/BgQdB04t89/1O/w1cDnyilFU="
-
-export CHANNEL_SECRET="e38ee24a27e88532164aa5cdeb311ba8"
-
-py
-
-ngrok http http://127.0.0.1:8888

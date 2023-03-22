@@ -12,7 +12,8 @@ line_bot_api = LineBotApi(os.environ['CHANNEL_ACCESS_TOKEN'])
 handler = WebhookHandler(os.environ['CHANNEL_SECRET'])
 
 # APIキーをセットアップする
-openai.api_key = "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"
+# openai.api_key = "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"
+openai.api_key = os.environ["OPENAI_API_KEY"]
 
 # LINE Messaging APIからのメッセージを受け取るエンドポイント
 @app.route("/callback", methods=['POST'])
